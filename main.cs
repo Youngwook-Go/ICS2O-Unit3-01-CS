@@ -14,7 +14,7 @@ class Program
         double lowerSide;
         double height;
         double result;
-      
+
         Console.WriteLine("This program gets area of trapzoid.");
         Console.WriteLine("Please enter the value of the trapzoid.\n");
         Console.Write("Enter lenghts of upper side : "); upperSide = Convert.ToInt32(Console.ReadLine());
@@ -22,7 +22,7 @@ class Program
         Console.Write("Enter length of height : "); height = Convert.ToInt32(Console.ReadLine());
 
         result = (upperSide + lowerSide) / 2 * height;
-        
+
         //this function prints the result
         Console.WriteLine("Area of the trapzoid is : " + result.ToString("0.00") + ". ");
     }

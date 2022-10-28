@@ -24,6 +24,7 @@ class Program
         result = (upperSide + lowerSide) / 2 * height;
 
         //this function prints the result
-        Console.WriteLine("Area of the trapzoid is : " + result.ToString("0.00") + ". ");
+        Console.WriteLine("\nArea of the trapzoid is : " + result.ToString("0.00") + " cm² ");
+        Console.WriteLine("\ndone.");
     }
 }
